@@ -1,0 +1,6 @@
+<?php
+
+$t = time()
+echo date(h,$t)
+
+?>

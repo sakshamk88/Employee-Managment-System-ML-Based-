@@ -1,0 +1,38 @@
+
+
+
+#icon{
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 400%;
+	position: relative;
+}
+.menu:hover{
+	width: 45%;
+	
+}
+.sidemenu:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+
+}
+
+@media only screen and (max-width: 1000px){
+  .menu:hover{
+    width: 35px;
+  }
+  .sidemenu:hover{
+  	color: white;
+ 	background-color: transparent;
+  }
+
+}
+.viewer{
+	background-color: gray;
+	height: 50vh;
+	width: 65vw;
+	margin-top: 10%;
+	margin-left: 20%;
+}
